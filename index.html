@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prueba Tecnica</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div id="formulario">
+        <div id="logo">
+            <label>LOGO</label>
+            <h5>Por favor, rellena los campos sigientes</h5>
+        </div>
+        <div id="form">
+            <input type="text" class="especiales" placeholder="Nombre" id="nombre" name="nombre">
+            <h6 id="nombreMal" class="erroresColumnasDerecha"></h6>
+            <input type="text" placeholder="Apellido" id="apellido" name="apellido">
+            <h6 id="apellidoMal" class="erroresColumnasIzquierda"></h6>
+            <input type="text" class="especiales" placeholder="Email" id="email" name="email">
+            <h6 id="emailMal" class="erroresColumnasDerecha"></h6>
+            <input type="text" placeholder="Repetir Email" id="email-repetido" name="email repetido">
+            <h6 id="emailMal2" class="erroresColumnasIzquierda"></h6>
+            <input type="text" class="especiales" placeholder="DNI" id="dni" name="dni">
+            <h6 id="dniMal" class="erroresColumnasDerecha"></h6>
+            <input type="text" placeholder="Móvil" id="movil" name="movil">
+            <h6 id="movilMal"  class="erroresColumnasIzquierda"></h6>
+            <button type="submit" onclick="validateForm()" id="boton" value="Enviar">Enviar</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+html{
+    background-color: rgb(214, 213, 213);
+}
+
+#formulario{
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+    border-radius: 1%;
+}
+
+#logo{
+    padding-top: 5%;
+    text-align: center;
+    border-radius: 1%;
+}
+
+#logo>label{
+    background-color: rgb(214, 213, 213);
+    padding: 2%;
+    border-radius: 5%;
+}
+
+#logo>h5{
+    color:blue;    
+}
+
+#form>input{
+    outline: 0 none;
+    border: 0;
+    border-bottom: 2px solid blue;
+    margin-left: 5%;
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.especiales{
+    float: left;
+}
+
+#boton{
+    margin-left: 30%;
+    padding: 1% 16%;
+    margin-bottom: 3%;
+    color: white;
+    background-color: blue;
+    border: 0;  
+}
+
+#form>h6{
+    margin-left: 5%;    
+}
+
+.erroresColumnasIzquierda{
+    margin-left: 50% !important;
+    color:red;
+}
+
+.erroresColumnasDerecha{
+    position: absolute;
+    margin-top: 5% !important;
+    margin-left: 2.5% !important;
+    color:red;
+}
+
+@media only screen and (max-width: 750px) {
+    .especiales{
+        float: unset;
+    }
+    #form>input{
+        width: 80%;
+    }
+    #form>h6{
+        color:red;
+    }
+    #boton{
+        margin-left: 23%;
+    }
+    .erroresColumnasDerecha{
+        position: unset;
+        margin-top: 5% !important;
+        margin-left: 5% !important;
+    }
+    .erroresColumnasIzquierda{
+        margin-left: 5% !important;
+        margin-top: 5% !important;
+    }
+  }
